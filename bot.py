@@ -11,11 +11,12 @@ from telegram.ext import (
 )
 
 # Load configuration from Render environment variables
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-DATABASE_URL = os.environ.get("DATABASE_URL")
+TOKEN = os.environ.get("8835811515:AAG5QxiaKuBDk6aivOnYAw3OD4CyPMdLyZk
+")
+DATABASE_URL = os.environ.get("postgresql://postgres:[YOUR-PASSWORD]@db.kmoiitbghivimjgrfxev.supabase.co:5432/postgres")
 
 # Telegram User IDs of Bot Admins allowed to add/remove database entries
-ADMIN_IDS = [123456789]  # Replace with your Telegram User ID
+ADMIN_IDS = [@sulegsm]  # Replace with your Telegram User ID
 
 # Logging configuration
 logging.basicConfig(
